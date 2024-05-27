@@ -1,0 +1,54 @@
+.authorSection {
+	border-radius: 0 0 8px 8px;
+	background: #fff;
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
+}
+
+.authorAvatar {
+	width: 100px;
+	height: auto;
+}
+
+.authorWrapper {
+	width: 100%;
+	min-width: 479px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 48px 0;
+}
+
+.authorName {
+	margin: 17px 0 12px 0;
+}
+
+.authorSupporters {
+	display: flex;
+}
+
+.authorSupporters img {
+	margin-right: 8px;
+}
+
+.joinBtn {
+	margin-top: 40px;
+	padding: 16px 32px;
+	border-radius: 8px;
+	background: #19191a;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #fff;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1200px) {
+	.authorSection {
+		margin-top: 35px;
+	}
+
+	.authorWrapper {
+		min-width: 100%;
+	}
+}

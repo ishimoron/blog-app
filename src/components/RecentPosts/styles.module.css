@@ -1,0 +1,91 @@
+.recentPosts {
+	margin-top: 35px;
+	padding: 32px;
+	border-radius: 0 0 8px 8px;
+	background: #fff;
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
+}
+
+.recentPostsTitle {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 130%;
+	color: #19191a;
+	margin-bottom: 32px;
+}
+
+.postWithTitle {
+	display: flex;
+}
+
+.postWithoutTitle,
+.postWithTitle {
+	margin-bottom: 16px;
+}
+
+.postWithoutTitle a {
+	display: block;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	color: #19191a;
+	margin-bottom: 6px;
+}
+
+.postWithoutTitle p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	color: #707070;
+}
+
+.postWithoutTitle img,
+.postWithTitle img {
+	width: 56px;
+	height: 56px;
+	border-radius: 4px;
+}
+
+.postText {
+	margin-left: 16px;
+}
+
+.postText a {
+	display: block;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	color: #19191a;
+	margin-bottom: 6px;
+}
+
+.postText p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	color: #707070;
+}
+
+.divider {
+	margin-bottom: 16px;
+}
+
+/* media queries  */
+
+@media only screen and (max-width: 1200px) {
+	.recentPosts {
+		margin-bottom: 35px;
+	}
+}
+
+@media only screen and (max-width: 376px) {
+	.postText a,
+	.postWithoutTitle a {
+		font-size: 14px;
+	}
+
+	.postText p,
+	.postWithoutTitle p {
+		font-size: 13px;
+	}
+}

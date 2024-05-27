@@ -1,0 +1,48 @@
+.actionButtons {
+	display: flex;
+}
+
+.actionButtons button {
+	display: flex;
+	align-items: center;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.likeBtn,
+.commentBtn,
+.repostBtn {
+	margin-right: 26px;
+	/* padding: 4px; */
+}
+
+.icon {
+	margin-right: 8px;
+}
+
+.buttonText {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	text-align: right;
+	color: #424242;
+}
+
+.divider {
+	margin: 32px 0;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 426px) {
+	.actionButtons {
+		justify-content: space-between;
+	}
+
+	.likeBtn,
+	.commentBtn,
+	.repostBtn {
+		margin-right: 0;
+	}
+}

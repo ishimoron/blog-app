@@ -1,0 +1,107 @@
+.blogWrapper {
+	width: 98%;
+	padding: 40px;
+	background: #fff;
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
+	background: #fff;
+}
+
+.blogContainer {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.backToPosts {
+	display: flex;
+	align-items: center;
+}
+
+.backToPosts a {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 171%;
+	color: #19191a;
+	margin-left: 8px;
+}
+
+.onlyMembers {
+	display: flex;
+	align-items: center;
+	width: 158px;
+	height: 36px;
+	border-radius: 8px;
+	padding: 8px 16px;
+	background: #f3f3f3;
+	margin: 40px 0 24px 0;
+}
+
+.onlyMembers a {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 130%;
+	color: #19191a;
+	margin-left: 8px;
+}
+
+.blogInfo {
+	text-align: left;
+}
+
+.blogTitle {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 140%;
+	color: #19191a;
+}
+
+.blogDate {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	color: #707070;
+	margin-top: 15px;
+}
+
+.blogBody p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 155%;
+	color: #19191a;
+	margin-bottom: 32px;
+}
+
+.blogBody p:last-child {
+	margin-bottom: 0;
+}
+
+.textBox {
+	margin: 40px 0;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1200px) {
+	.blogWrapper {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 426px) {
+	.blogWrapper {
+		padding: 10px;
+	}
+
+	.blogContainer {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 376px) {
+	.blogTitle {
+		font-size: 24px;
+	}
+
+	.blogDate {
+		font-size: 14px;
+	}
+}
